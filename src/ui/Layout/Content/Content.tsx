@@ -8,7 +8,9 @@ import bgContent from "../../assets/Images/Content/bg-content.webp"
 const bgImg: string = bgContent;
 
 const Content: React.FC = () => {
-  return <MainContainer>Main</MainContainer>;
+  return <MainContainer>
+    
+  </MainContainer>;
 };
 
 export default Content;
