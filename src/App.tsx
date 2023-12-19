@@ -1,8 +1,8 @@
 import React from "react";
-import GlobalStyle from "./styles/global";
-import Header from "./Layout/Header/Header";
-import Content from "./Layout/Content/Content";
-import Footer from "./Layout/Footer/Footer";
+import GlobalStyle from "./ui/styles/global";
+import Header from "./ui/Layout/Header/Header";
+import Content from "./ui/Layout/Content/Content";
+import Footer from "./ui/Layout/Footer/Footer";
 
 function App() {
   return (

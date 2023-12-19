@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-expect-error
-import TogglerButtonImg from "../../assets/Images/Navbar/Button.svg";
+import TogglerButtonImg from "../../../assets/Images/Navbar/Button.svg";
 
 const Header: React.FC = () => {
   return (
