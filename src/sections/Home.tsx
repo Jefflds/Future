@@ -28,11 +28,6 @@ export const HomeContainer = styled.section`
     margin: 0 auto;
   }
 
-  article {
-    display: block;
-    background: #000;
-  }
-
   .container {
     width: 100%;
     max-width: 760px;
@@ -96,7 +91,7 @@ export const HomeContainer = styled.section`
   }
 `;
 
-export const ParallaxImg = styled.div`
+export const ParallaxImg = styled.article`
   background-image: url("${bgImg}");
   align-items: center;
   justify-content: center;
