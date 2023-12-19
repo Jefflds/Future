@@ -8,11 +8,9 @@ const bgImg: string = bgContent;
 const Home: React.FC = () => {
   return (
     <HomeContainer className="wrapper">
-      <article>
-        <ParallaxImg className="module parallax text-center">
+      <ParallaxImg className="module parallax text-center">
           <h1>Welcome to the Future.</h1>
-        </ParallaxImg>
-      </article>
+      </ParallaxImg>
     </HomeContainer>
   );
 };
@@ -32,16 +30,7 @@ export const HomeContainer = styled.section`
 
   article {
     display: block;
-    background-color: #000;
-    padding: 80px;
-
-    @media (max-width: 768px) {
-      padding: 60px;
-    }
-
-    @media (max-width: 576px) {
-      padding: 40px;
-    }
+    background: #000;
   }
 
   .container {
