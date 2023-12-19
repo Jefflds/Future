@@ -12,8 +12,6 @@ const Home: React.FC = () => {
         <ParallaxImg className="module parallax text-center">
           <h1>Welcome to the Future.</h1>
         </ParallaxImg>
-       
-
       </article>
     </HomeContainer>
   );
@@ -22,7 +20,6 @@ const Home: React.FC = () => {
 export default Home;
 
 export const HomeContainer = styled.section`
-
   h1 {
     font-weight: 900;
     color: #fff;
@@ -37,6 +34,14 @@ export const HomeContainer = styled.section`
     display: block;
     background-color: #000;
     padding: 80px;
+
+    @media (max-width: 768px) {
+      padding: 60px;
+    }
+
+    @media (max-width: 576px) {
+      padding: 40px;
+    }
   }
 
   .container {
@@ -104,4 +109,6 @@ export const HomeContainer = styled.section`
 
 export const ParallaxImg = styled.div`
   background-image: url("${bgImg}");
+  align-items: center;
+  justify-content: center;
 `;
