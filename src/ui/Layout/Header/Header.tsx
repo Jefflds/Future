@@ -34,6 +34,8 @@ export const HeaderContainer = styled.header`
 
   .navbar-brand {
     color: #fff;
+    font-weight: bolder;
+    font-size: 64px;
   }
 
   span.navbar-toggler-icon {
