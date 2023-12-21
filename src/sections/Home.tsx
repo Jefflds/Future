@@ -34,7 +34,7 @@ const Home: React.FC = () => {
                 </a>
               </Col>
               <Col sm={4}></Col>
-              <Col sm={4} className="mb-5">
+              <Col sm={4} >
                 <a href="">
                   <StyledImage src={HomeImg2} alt="" className="img-fluid" />
                 </a>
