@@ -27,35 +27,39 @@ const Home: React.FC = () => {
       <ParallaxImg className="module parallax text-center">
         <Container>
           <Row>
-            <Col sm={4}>
-              <a href="">
-                <StyledImage src={HomeImg1} alt="" className="img-fluid" />
-              </a>
-            </Col>
-            <Col sm={4}></Col>
-            <Col sm={4} className="mb-5">
-              <a href="">
-                <StyledImage src={HomeImg2} alt="" className="img-fluid" />
-              </a>
-            </Col>
+            <div className="responsive">
+              <Col sm={4}>
+                <a href="">
+                  <StyledImage src={HomeImg1} alt="" className="img-fluid" />
+                </a>
+              </Col>
+              <Col sm={4}></Col>
+              <Col sm={4} className="mb-5">
+                <a href="">
+                  <StyledImage src={HomeImg2} alt="" className="img-fluid" />
+                </a>
+              </Col>
+            </div>
             <Col sm={12} className="mt-5 mb-5">
               <h1>Welcome to the Future.</h1>
             </Col>
-            <Col sm={4} className="mt-5">
-              <a href="">
-                <StyledImage src={HomeImg3} alt="" className="img-fluid" />
-              </a>
-            </Col>
-            <Col sm={4} className="mt-5">
-              <a href="">
-                <StyledImage src={HomeImg4} alt="" className="img-fluid" />
-              </a>
-            </Col>
-            <Col sm={4} className="mt-5">
-              <a href="">
-                <StyledImage src={HomeImg5} alt="" className="img-fluid" />
-              </a>
-            </Col>
+            <div className="responsive">
+              <Col sm={4} className="mt-5">
+                <a href="">
+                  <StyledImage src={HomeImg3} alt="" className="img-fluid" />
+                </a>
+              </Col>
+              <Col sm={4} className="mt-5">
+                <a href="">
+                  <StyledImage src={HomeImg4} alt="" className="img-fluid" />
+                </a>
+              </Col>
+              <Col sm={4} className="mt-5">
+                <a href="">
+                  <StyledImage src={HomeImg5} alt="" className="img-fluid" />
+                </a>
+              </Col>
+            </div>
           </Row>
         </Container>
       </ParallaxImg>
@@ -121,16 +125,34 @@ export const HomeContainer = styled.section`
     -moz-background-size: cover;
     -o-background-size: cover;
   }
+
+  .responsive {
+    @media (max-width: 575px) {
+      display: flex;
+    }
+  }
 `;
 
 export const ParallaxImg = styled.article`
   background-image: url("${bgImg}");
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 576px) {
+    height: auto;
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
 `;
 
 export const StyledImage = styled.img`
+  width: 100%;
   border-radius: 50px;
   border: 2px solid #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 576px) {
+    border-radius: 30px;
+    width: 80%;
+  }
 `;
