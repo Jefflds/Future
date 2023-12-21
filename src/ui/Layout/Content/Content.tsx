@@ -6,6 +6,7 @@ const Content: React.FC = () => {
   return (
     <MainContainer>
       <Home />
+      
     </MainContainer>
   );
 };
