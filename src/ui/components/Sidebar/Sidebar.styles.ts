@@ -1,6 +1,10 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const SidebatContainer = styled.aside`
+  hr {
+    width: 100%;
+    color: #ffffff;
+  }
   *,
   *:before,
   *:after {
@@ -20,7 +24,13 @@ export const SidebatContainer = styled.aside`
     position: relative;
     top: 0;
     left: 0;
-    background: crimson;
+    background: rgb(18, 86, 142);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 86, 142, 1) 0%,
+      rgba(53, 2, 30, 1) 50%,
+      rgba(178, 27, 90, 1) 100%
+    );
     height: 100vh;
   }
 
@@ -32,7 +42,6 @@ export const SidebatContainer = styled.aside`
     position: relative;
     width: 70px;
     cursor: pointer;
-    background: crimson;
     text-transform: uppercase;
     transition: all 0.4s ease-out;
   }
@@ -40,7 +49,6 @@ export const SidebatContainer = styled.aside`
   nav ul li:after {
     position: absolute;
     background: white;
-    color: crimson;
     top: 0;
     left: 70px;
     width: 70px;
@@ -105,7 +113,7 @@ export const SidebatContainer = styled.aside`
     height: 0;
     border-style: solid;
     border-width: 0 17px 12px 17px;
-    border-color: transparent transparent crimson transparent;
+    border-color: transparent transparent transparent;
   }
 
   .roof-edge:after {
@@ -130,7 +138,7 @@ export const SidebatContainer = styled.aside`
 
   .front:after {
     position: absolute;
-    background: crimson;
+    background: #12568e;
     width: 11px;
     height: 13px;
     bottom: 0;
@@ -162,7 +170,7 @@ export const SidebatContainer = styled.aside`
     position: absolute;
     top: 10px;
     left: 5px;
-    background: crimson;
+    background: #12568e;
   }
 
   .eyes:after {
@@ -172,13 +180,13 @@ export const SidebatContainer = styled.aside`
     position: absolute;
     top: 0;
     left: 14px;
-    background: crimson;
+    background: #12568e;
   }
 
   .beard {
     width: 32px;
     height: 17px;
-    background: crimson;
+    background: #12568e;
     border: 2px solid white;
     position: absolute;
     bottom: 0;
@@ -193,8 +201,8 @@ export const SidebatContainer = styled.aside`
     background: white;
     width: 6px;
     height: 4px;
-    border-left: 1px solid crimson;
-    border-right: 1px solid crimson;
+    border-left: 1px solid #12568e;
+    border-right: 1px solid #12568e;
   }
 
   .paper {
@@ -212,7 +220,7 @@ export const SidebatContainer = styled.aside`
     width: 25px;
     height: 29px;
     background: white;
-    border-top: 4px solid crimson;
+    border-top: 4px solid #12568e;
   }
 
   .lines {
@@ -220,7 +228,7 @@ export const SidebatContainer = styled.aside`
     top: 36px;
     left: 5px;
     width: 11px;
-    box-shadow: 0 0 0 1px crimson;
+    box-shadow: 0 0 0 1px #12568e;
   }
 
   .lines:after {
@@ -228,7 +236,7 @@ export const SidebatContainer = styled.aside`
     top: 4px;
     left: 3px;
     width: 14px;
-    box-shadow: 0 0 0 1px crimson;
+    box-shadow: 0 0 0 1px #12568e;
   }
 
   .lines:nth-child(2) {
@@ -273,7 +281,7 @@ export const SidebatContainer = styled.aside`
     transform: rotate(180deg);
     border-style: solid;
     border-width: 0 16px 11px 16px;
-    border-color: transparent transparent crimson transparent;
+    border-color: transparent transparent #12568e transparent;
   }
 
   .mail-top:after {
