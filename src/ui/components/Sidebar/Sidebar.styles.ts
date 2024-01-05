@@ -65,15 +65,15 @@ export const SidebatContainer = styled.aside`
     line-height: 88px;
   }
   nav ul li:nth-child(2):after {
-    content: "About";
+    content: "Cursos";
     line-height: 88px;
   }
   nav ul li:nth-child(3):after {
-    content: "Work";
+    content: "FAQ";
     line-height: 85px;
   }
   nav ul li:nth-child(4):after {
-    content: "Say hi";
+    content: "Contate-nos";
     line-height: 70px;
   }
 
