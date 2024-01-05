@@ -32,6 +32,7 @@ export const SidebatContainer = styled.aside`
       rgba(178, 27, 90, 1) 100%
     );
     height: 100vh;
+    border-radius: 15px;
   }
 
   nav ul {
