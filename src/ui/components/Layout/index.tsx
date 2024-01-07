@@ -1,12 +1,12 @@
-import { Grid } from "./styles";
+import { Grid } from "./Layout.styles";
 
-import ServerList from "../ServerList";
-import ServerName from "../ServeName";
-import ChannelInfo from "../ChannelInfo";
-import ChannelList from "../ChannelList";
-import ChannelData from "../ChannelData";
-import UserInfo from "../UserInfo";
-import UserList from "../UserList";
+import ServerList from "../ServerList/index";
+import ServerName from "../ServeName/index";
+import ChannelInfo from "../ChannelInfo/index";
+import ChannelList from "../ChannelList/index";
+import ChannelData from "../ChannelData/index";
+import UserInfo from "../UserInfo/index";
+import UserList from "../UserList/index";
 
 const Layout: React.FC = () => {
   return (
