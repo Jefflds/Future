@@ -19,13 +19,13 @@ export const GlobalStyle = createGlobalStyle`
 html, body, #root {
     /* background: #01012b; */
     height: 100%;
+    overflow: hidden;
 }
 
 ul {
     padding-left: 0!important;
 }
 
-:root {
     :root {
     --primary: #36393f;
     --secondary: #2f3136;
@@ -48,5 +48,4 @@ ul {
  
     --rocketseat: #6633cc;
   }
-}
 `;

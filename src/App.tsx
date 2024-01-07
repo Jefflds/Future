@@ -1,14 +1,13 @@
 // import Sidebar from "./ui/components/Sidebar/Sidebar";
-import Layout from "./ui/components/Layout";
+import Layout from "./ui/components/layout";
 import { GlobalStyle } from "./ui/styles/global";
 
 function App() {
   return (
     <>
       {/* <Sidebar /> */}
-
-      <Layout />
       <GlobalStyle />
+      <Layout />
     </>
   );
 }
