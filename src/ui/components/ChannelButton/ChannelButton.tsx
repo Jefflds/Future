@@ -1,4 +1,4 @@
-import { Container, HashtagIcon, InviteIcon, SettingsIcon } from './styles';
+import { Container, HashtagIcon, InviteIcon, SettingsIcon } from './ChannelButton.styles';
 
 export interface Props {
   channelName: string;

@@ -1,4 +1,4 @@
-import { Button } from "./styles";
+import { Button } from "./ServerButton.styles";
 import Logo from "../../../assets/vite.svg";
 
 export interface ServerButtonProps {

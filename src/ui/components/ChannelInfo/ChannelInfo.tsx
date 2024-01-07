@@ -4,7 +4,7 @@ import {
   Title,
   Separator,
   Description,
-} from './styles';
+} from './ChannelInfo.styles';
 
 const ChannelInfo: React.FC = () => {
   return (

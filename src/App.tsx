@@ -1,5 +1,5 @@
 // import Sidebar from "./ui/components/Sidebar/Sidebar";
-import Layout from "./ui/components/Layout";
+import Layout from "./ui/components/Layout/Layout";
 import { GlobalStyle } from "./ui/styles/global";
 
 function App() {

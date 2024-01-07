@@ -1,5 +1,5 @@
-import { Container, Avatar, Message, Header, Content } from './styles';
-export { Mention } from './styles';
+import { Container, Avatar, Message, Header, Content } from './ChannelMessage.styles';
+export { Mention } from './ChannelMessage.styles';
 
 export interface Props {
   author: string;

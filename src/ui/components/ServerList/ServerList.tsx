@@ -1,6 +1,6 @@
-import ServerButton from '../ServeButton';
+import ServerButton from '../ServeButton/ServeButton';
 
-import { Container, Separator } from './styles';
+import { Container, Separator } from './ServerList.styles';
 
 const ServerList: React.FC = () => {
   return (

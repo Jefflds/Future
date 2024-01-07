@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { ServerButtonProps } from "./index";
+import { ServerButtonProps } from "./ServerButton";
 
 export const Button = styled.button<ServerButtonProps>`
   display: flex;

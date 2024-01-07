@@ -1,6 +1,6 @@
 import Logo from "../../../assets/vite.svg"
 
-import { Button } from './styles';
+import { Button } from './ServeButton.styles';
 
 export interface Props {
   selected?: boolean;

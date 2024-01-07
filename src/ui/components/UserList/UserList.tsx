@@ -1,4 +1,4 @@
-import { Container, Role, User, Avatar } from './styles';
+import { Container, Role, User, Avatar } from './UserList.styles';
 
 interface UserProps {
   nickname: string;

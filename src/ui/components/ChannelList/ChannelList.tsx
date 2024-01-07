@@ -1,6 +1,6 @@
-import ChannelButton from '../ChannelButton';
+import ChannelButton from '../ChannelButton/ChannelButton';
 
-import { Container, Category, AddCategoryIcon } from './styles';
+import { Container, Category, AddCategoryIcon } from './ChannelList.styles';
 
 const ChannelList: React.FC = () => {
   return (
