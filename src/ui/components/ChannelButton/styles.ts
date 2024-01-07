@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { FaHashtag } from 'react-icons/fa';
-import { PersonAdd, Settings } from '@styled-icons/material';
+import { FaHashtag, FaUserPlus, FaCog } from 'react-icons/fa';
 
 export const Container = styled.div`
   display: flex;
@@ -43,7 +42,7 @@ export const HashtagIcon = styled(FaHashtag)`
   color: var(--symbol);
 `;
 
-export const InviteIcon = styled(PersonAdd)`
+export const InviteIcon = styled(FaUserPlus)`
   width: 16px;
   height: 16px;
 
@@ -57,7 +56,7 @@ export const InviteIcon = styled(PersonAdd)`
   }
 `;
 
-export const SettingsIcon = styled(Settings)`
+export const SettingsIcon = styled(FaCog)`
   width: 16px;
   height: 16px;
 

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Mic, Headset, Settings } from '@styled-icons/material';
+import styled from "styled-components";
+import { MdMic, MdHeadset, MdSettings } from "react-icons/md";
 
 export const Container = styled.div`
   grid-area: UI;
@@ -53,7 +53,7 @@ export const Icons = styled.div`
   }
 `;
 
-export const MicIcon = styled(Mic)`
+export const MicIcon = styled(MdMic)`
   width: 20px;
   height: 20px;
 
@@ -68,7 +68,7 @@ export const MicIcon = styled(Mic)`
   }
 `;
 
-export const HeadphoneIcon = styled(Headset)`
+export const HeadphoneIcon = styled(MdHeadset)`
   width: 20px;
   height: 20px;
 
@@ -83,7 +83,7 @@ export const HeadphoneIcon = styled(Headset)`
   }
 `;
 
-export const SettingsIcon = styled(Settings)`
+export const SettingsIcon = styled(MdSettings)`
   width: 20px;
   height: 20px;
 

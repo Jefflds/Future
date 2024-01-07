@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import {ExpandMore} from '@styled-icons/material'
+import styled from "styled-components";
+import { IoIosArrowDown } from "react-icons/io";
+
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -15,12 +16,11 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-size: 16px;
   font-weight: bold;
-  
 
   color: var(--white);
 `;
 
-export const ExpandIcon = styled(ExpandMore)`
+export const ExpandIcon = styled(IoIosArrowDown)`
   width: 28px;
   height: 28px;
 

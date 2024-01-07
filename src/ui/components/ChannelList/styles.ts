@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Add } from '@styled-icons/material';
+import styled from "styled-components";
+import { IoIosAddCircleOutline } from "react-icons/io";
 
 export const Container = styled.div`
   grid-area: CL;
@@ -26,7 +26,7 @@ export const Category = styled.div`
   }
 `;
 
-export const AddCategoryIcon = styled(Add)`
+export const AddCategoryIcon = styled(IoIosAddCircleOutline)`
   width: 21px;
   height: 21px;
 

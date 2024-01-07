@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { AlternateEmail } from '@styled-icons/material';
+import styled from "styled-components";
+import { IoMdMail } from "react-icons/io";
 
 export const Container = styled.div`
   grid-area: CD;
@@ -67,7 +67,7 @@ export const Input = styled.input`
   }
 `;
 
-export const InputIcon = styled(AlternateEmail)`
+export const InputIcon = styled(IoMdMail)`
   width: 24px;
   height: 24px;
 
